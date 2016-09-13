@@ -1,9 +1,4 @@
-﻿using dotnetlab1.Factories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
 namespace dotnetlab1
 {
@@ -12,12 +7,12 @@ namespace dotnetlab1
         static void Main(string[] args)
         {
             Bakery bakery = new Bakery();
-            bakery.yeastBaker.bakePie("blackberry");
-            bakery.yeastBaker.bakeBun("cream");
-
-            bakery.puffBaker.bakePie("cheese");
-            bakery.puffBaker.bakeBun("chocolate");
-
+            foreach(var baker in bakery.workers) {
+                baker.bakeBun("jam");
+                baker.bakePie("cream");
+                baker.bakeBun("uranium");
+                baker.bakePie("uranium");
+            }
             Console.ReadLine();
         }
     }
