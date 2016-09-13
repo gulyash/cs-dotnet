@@ -9,8 +9,8 @@ namespace dotnetlab1
 {
     class Bakery
     {
-        public PuffBaker puffBaker;
-        public YeastBaker yeastBaker;
+        public IBaker puffBaker;
+        public IBaker yeastBaker;
         
         public Bakery()
         {
