@@ -1,6 +1,7 @@
 ﻿using System;
+using dotnetlab1.Baking;
 
-namespace dotnetlab1
+namespace dotnetlab1.Factories
 {
     interface IBaker
     {

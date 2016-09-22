@@ -1,29 +1,22 @@
-﻿using System;
-using System.Collections;
+﻿using dotnetlab1.Factories;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace dotnetlab1
 {
-    class Bakery : IEnumerable<IBaker>
+    class Bakery
     {
-        public List<IBaker> workers = new List<IBaker>();
-        public Fridge fridge = new Fridge();
-     
+        public IBaker puffBaker;
+        public IBaker yeastBaker;
+        
         public Bakery()
         {
             Console.WriteLine("Bakery opened!");
-            workers.Add(new PuffBaker(this));
-            workers.Add(new YeastBaker(this));
-        }
-
-        IEnumerator<IBaker> IEnumerable<IBaker>.GetEnumerator()
-        {
-            return workers.GetEnumerator();
-        }
-
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return workers.GetEnumerator();
+            puffBaker = new PuffBaker();
+            yeastBaker = new YeastBaker();
         }
     }
 }
