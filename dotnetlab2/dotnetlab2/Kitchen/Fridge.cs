@@ -19,13 +19,16 @@ namespace dotnetlab2.Kitchen
         /// </summary>
         public Fridge()
         {
-            fillingShelf.Add(new Filling("jam"));
+            Filling jamFill = new Filling("jam");
+            fillingShelf.Add(jamFill);
             fillingShelf.Add(new Filling("blackberry"));
             fillingShelf.Add(new Filling("cheese"));
             fillingShelf.Add(new Filling("cream"));
             fillingShelf.Add(new Filling("caramel"));
             fillingShelf.Add(new Filling("yoghurt"));
             fillingShelf.Add(new Filling("Nutella"));
+
+            if (fillingShelf.Contains(jamFill)) Console.WriteLine("CONTAINS");
         }
 
         /// <summary>
@@ -47,17 +50,31 @@ namespace dotnetlab2.Kitchen
             return exists;
         }
 
+        public IEnumerable<string> YieldFridge()
+        {
+            foreach (Filling f in fillingShelf)
+            {
+                yield return f.name;
+            }
+        }
 
+        public void checkFridge() {
+            Console.WriteLine("There are several fillings in the fridge:");
+            foreach (string fillingName in YieldFridge()) {
+                Console.WriteLine("{0}",fillingName);
+            }
+        }
 
-        IEnumerator<Filling> IEnumerable<Filling>.GetEnumerator()
+        public IEnumerator<Filling> GetEnumerator()
         {
             return ((IEnumerable<Filling>)fillingShelf).GetEnumerator();
         }
 
-        public IEnumerator GetEnumerator()
+        IEnumerator IEnumerable.GetEnumerator()
         {
             return ((IEnumerable<Filling>)fillingShelf).GetEnumerator();
         }
+
 
         public void Add(Filling item)
         {
@@ -69,11 +86,6 @@ namespace dotnetlab2.Kitchen
             ((ICollection<Filling>)fillingShelf).Clear();
         }
 
-        public bool Contains(Filling item)
-        {
-            return ((ICollection<Filling>)fillingShelf).Contains(item);
-        }
-
         public void CopyTo(Filling[] array, int arrayIndex)
         {
             ((ICollection<Filling>)fillingShelf).CopyTo(array, arrayIndex);
@@ -82,6 +94,11 @@ namespace dotnetlab2.Kitchen
         public bool Remove(Filling item)
         {
             return ((ICollection<Filling>)fillingShelf).Remove(item);
+        }
+
+        public bool Contains(Filling item)
+        {
+            return fillingShelf.Contains(item);
         }
 
         public int Count

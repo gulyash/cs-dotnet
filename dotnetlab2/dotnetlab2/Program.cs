@@ -1,4 +1,5 @@
 ﻿using System;
+using dotnetlab2.Kitchen;
 
 namespace dotnetlab2
 {
@@ -7,7 +8,6 @@ namespace dotnetlab2
         static void Main(string[] args)
         {
             Bakery bakery = new Bakery();
-           
             Console.ReadLine();
         }
     }

@@ -14,7 +14,7 @@ namespace dotnetlab2
     /// </summary>
     class Bakery
     {
-        public Fridge fridge = new Fridge();
+        public Fridge fridge;
         
         /// <summary>
         /// like when you open a bakery
@@ -22,6 +22,10 @@ namespace dotnetlab2
         public Bakery()
         {
             Console.WriteLine("Bakery opened!");
+
+            fridge = new Fridge();
+            //using yield return in fridge class
+            fridge.checkFridge();
 
             PowderBunBaker powderBunBaker = new PowderBunBaker();
             powderBunBaker.bakeOvenTray(new Pastry("puff"), new Filling("caramel"));
@@ -33,7 +37,7 @@ namespace dotnetlab2
             //the following won't work 
             //powderBunBaker = bunBaker;
             bunBaker = powderBunBaker;
-            bunBaker.bake(new Pastry("yeast"), new Filling("yoghurt"));
+            if (fridge.hasFilling("yoghurt")) bunBaker.bake(new Pastry("yeast"), new Filling("yoghurt"));
             
             
         }
