@@ -1,0 +1,6 @@
+C:\Users\ibrag\Documents\GitHub\cs-dotnet\dotnetlab1\bin\Debug\dotnetlab1.exe.config
+C:\Users\ibrag\Documents\GitHub\cs-dotnet\dotnetlab1\bin\Debug\dotnetlab1.exe
+C:\Users\ibrag\Documents\GitHub\cs-dotnet\dotnetlab1\bin\Debug\dotnetlab1.pdb
+C:\Users\ibrag\Documents\GitHub\cs-dotnet\dotnetlab1\obj\Debug\dotnetlab1.csprojResolveAssemblyReference.cache
+C:\Users\ibrag\Documents\GitHub\cs-dotnet\dotnetlab1\obj\Debug\dotnetlab1.exe
+C:\Users\ibrag\Documents\GitHub\cs-dotnet\dotnetlab1\obj\Debug\dotnetlab1.pdb
