@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using dotnetlab3.Baking;
-using dotnetlab3.Kitchen;
+using dotnetlab5.Baking;
+using dotnetlab5.Kitchen;
 
-namespace dotnetlab3.Factories
+namespace dotnetlab5.Factories
 {
     class BunBaker : IPastryFactory<Pastry, Bun>
     {

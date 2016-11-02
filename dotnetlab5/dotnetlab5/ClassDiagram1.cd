@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="dotnetlab5.Bakery" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACACAAAAIACAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bakery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dotnetlab5.Customer" Collapsed="true">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAABAAMACAAAAAAAEAgAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dotnetlab5.Logger&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAgAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger\Logger.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="dotnetlab5.Program" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dotnetlab5.Baking.AbstractBaking" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEAAAAAgAAAAAAAAAAIAAAAAAAgAAAAAAIAABA=</HashCode>
+      <FileName>Baking\AbstractBaking.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="dotnetlab5.Baking.Bun" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Baking\Bun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dotnetlab5.Baking.Pie" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Baking\Pie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dotnetlab5.Baking.PowderBun" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABA=</HashCode>
+      <FileName>Baking\PowderBun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dotnetlab5.Baking.PowderPie" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABA=</HashCode>
+      <FileName>Baking\PowderPie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dotnetlab5.Factories.BunBaker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\BunBaker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="dotnetlab5.Factories.PieBaker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\PieBaker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="dotnetlab5.Factories.PowderBunBaker" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\PowderBunBaker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="dotnetlab5.Kitchen.Filling" Collapsed="true">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kitchen\Filling.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dotnetlab5.Kitchen.Fridge" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIAAAAAAAAAABASAAAABAQEAAAAEAMEAEAAAABSIgA=</HashCode>
+      <FileName>Kitchen\Fridge.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="dotnetlab5.Kitchen.NoSuchFillingException" Collapsed="true">
+    <Position X="5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kitchen\NoSuchFillingException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dotnetlab5.Kitchen.Pastry" Collapsed="true">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kitchen\Pastry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="dotnetlab5.Kitchen.Powder" Collapsed="true">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kitchen\Powder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="dotnetlab5.Factories.IPastryFactory&lt;P, T&gt;" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factories\IPastryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="dotnetlab5.Logger.ILogger&lt;T&gt;" Collapsed="true">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Logger\ILogger.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Delegate Name="dotnetlab5.GetPowderBunOperation" Collapsed="true">
+    <Position X="9" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

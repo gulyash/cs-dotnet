@@ -1,9 +1,9 @@
 ﻿using System;
-using dotnetlab3.Kitchen;
-using dotnetlab3.Factories;
-using dotnetlab3.Baking;
+using dotnetlab5.Kitchen;
+using dotnetlab5.Factories;
+using dotnetlab5.Baking;
 
-namespace dotnetlab3
+namespace dotnetlab5
 {
     /// <summary>
     /// This is where all the bakers work and make pastry

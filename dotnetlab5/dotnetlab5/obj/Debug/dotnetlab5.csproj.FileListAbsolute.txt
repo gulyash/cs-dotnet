@@ -1,0 +1,6 @@
+C:\Users\ibrag\Documents\Visual Studio 2015\Projects\dotnetlab5\dotnetlab5\bin\Debug\dotnetlab5.exe.config
+C:\Users\ibrag\Documents\Visual Studio 2015\Projects\dotnetlab5\dotnetlab5\obj\Debug\dotnetlab5.csprojResolveAssemblyReference.cache
+C:\Users\ibrag\Documents\Visual Studio 2015\Projects\dotnetlab5\dotnetlab5\bin\Debug\dotnetlab5.exe
+C:\Users\ibrag\Documents\Visual Studio 2015\Projects\dotnetlab5\dotnetlab5\bin\Debug\dotnetlab5.pdb
+C:\Users\ibrag\Documents\Visual Studio 2015\Projects\dotnetlab5\dotnetlab5\obj\Debug\dotnetlab5.exe
+C:\Users\ibrag\Documents\Visual Studio 2015\Projects\dotnetlab5\dotnetlab5\obj\Debug\dotnetlab5.pdb

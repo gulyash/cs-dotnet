@@ -1,8 +1,8 @@
 ﻿using System;
-using dotnetlab3.Baking;
-using dotnetlab3.Kitchen;
+using dotnetlab5.Baking;
+using dotnetlab5.Kitchen;
 
-namespace dotnetlab3.Factories
+namespace dotnetlab5.Factories
 {
     
     class PieBaker : IPastryFactory<Pastry, Pie>

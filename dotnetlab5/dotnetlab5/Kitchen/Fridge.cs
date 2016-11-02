@@ -1,8 +1,9 @@
 ﻿using System;
+using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace dotnetlab3.Kitchen
+namespace dotnetlab5.Kitchen
 {
     /// <summary>
     /// class describing a fridge. Contains different fillings
@@ -13,20 +14,37 @@ namespace dotnetlab3.Kitchen
         /// filling collection
         /// </summary>
         private List<Filling> fillingShelf = new List<Filling>();
+
+        /// <summary>
+        /// название файла конфигурации
+        /// </summary>
+        private string fileName = "config.txt";
     
         /// <summary>
         /// Puts a fridge with a shelf of baking fillings
         /// </summary>
         public Fridge()
         {
-            Filling jamFill = new Filling("jam");
-            fillingShelf.Add(jamFill);
-            fillingShelf.Add(new Filling("blackberry"));
-            fillingShelf.Add(new Filling("cheese"));
-            fillingShelf.Add(new Filling("cream"));
-            fillingShelf.Add(new Filling("caramel"));
-            fillingShelf.Add(new Filling("yoghurt"));
-            fillingShelf.Add(new Filling("Nutella"));
+            //using standart exceptions
+            try
+            {
+                StreamReader sr = new StreamReader(fileName, System.Text.Encoding.Default);
+                string newFilling;
+                //reading fillings from config file
+                while ((newFilling = sr.ReadLine()) != null)
+                {
+                    fillingShelf.Add(new Filling(newFilling));
+                }
+            }
+            catch (ArgumentException ae) {
+                Console.WriteLine("Path to config file is empty.");
+            }
+            catch (FileNotFoundException fnfe) {
+                Console.WriteLine("File not found.");
+            }
+            catch (Exception e) {
+                Console.WriteLine("Everything is bad with this fridge.");
+            }
 
             //checking how ICollection works
             //if (fillingShelf.Contains(jamFill)) Console.WriteLine("CONTAINS");
@@ -48,7 +66,14 @@ namespace dotnetlab3.Kitchen
         /// </summary>
         /// <param name="filling"></param>
         public void TryFilling(Filling filling) {
-            Console.WriteLine("{0} filling is very tasty!", filling.name);
+            //using user exception
+            try {
+                if (!this.hasFilling(filling.name)) throw new NoSuchFillingException(filling.name);
+                Console.WriteLine("{0} filling is very tasty!", filling.name);
+            }
+            catch (NoSuchFillingException e) {
+                Console.WriteLine("There is no {0} filling in the fridge!", e.name);
+            }
         }
 
 

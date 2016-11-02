@@ -1,7 +1,7 @@
 ﻿using System;
-using dotnetlab3.Baking;
+using dotnetlab5.Baking;
 
-namespace dotnetlab3
+namespace dotnetlab5
 {
 
     class Program
@@ -18,9 +18,11 @@ namespace dotnetlab3
             Customer customer = new Customer(bakery, logger);
             //calling a delegate
             customer.orderPowderBun("puff", "cream");
-            customer.TryWithAllFillings();
-            customer.FindFilling("nonexistent");
-            customer.FindFilling("Nutella");
+            //customer.TryWithAllFillings();
+            //customer.FindFilling("nonexistent");
+            //customer.FindFilling("Nutella");
+            customer.TryFilling("nonexistent");
+            customer.TryFilling("Nutella");
             //this uses anonymous function
             //customer.orderPieAnonymous("biscuit", "blackberry");
             //this uses lambda fuction

@@ -1,0 +1,92 @@
+ 11.01.2016 11:04:29 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:04:29 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:04:29 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:04:29 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:04:29 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:04:29 dotnetlab5.Customer: Customer got a powder bun!
+ 11.01.2016 11:04:29 dotnetlab5.Customer: Customer tasted all fillings!
+ 11.01.2016 11:06:19 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:06:19 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:06:19 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:06:19 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:06:19 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:06:19 dotnetlab5.Customer: Customer got a powder bun!
+ 11.01.2016 11:06:19 dotnetlab5.Customer: Customer tasted all fillings!
+ 11.01.2016 11:17:13 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:17:13 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:17:13 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:17:13 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:17:13 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:17:13 dotnetlab5.Customer: Customer got a powder bun!
+ 11.01.2016 11:17:13 dotnetlab5.Customer: Customer tasted all fillings!
+ 11.01.2016 11:17:40 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:17:40 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:17:40 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:17:40 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:17:40 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:17:40 dotnetlab5.Customer: Customer got a powder bun!
+ 11.01.2016 11:17:40 dotnetlab5.Customer: Customer tasted all fillings!
+ 11.01.2016 11:20:16 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:20:16 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:20:16 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:20:16 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:20:16 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:20:16 dotnetlab5.Customer: Customer got a powder bun!
+ 11.01.2016 11:20:16 dotnetlab5.Customer: Customer tasted all fillings!
+ 11.01.2016 11:20:50 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:20:50 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:20:50 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:20:50 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:20:50 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:20:50 dotnetlab5.Customer: Customer got a powder bun!
+ 11.01.2016 11:20:50 dotnetlab5.Customer: Customer tasted all fillings!
+ 11.01.2016 11:21:11 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:21:11 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:21:11 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:21:11 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:21:11 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:21:11 dotnetlab5.Customer: Customer got a powder bun!
+ 11.01.2016 11:21:11 dotnetlab5.Customer: Customer tasted all fillings!
+ 11.01.2016 11:21:26 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:21:26 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:21:26 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:21:26 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:21:26 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:21:26 dotnetlab5.Customer: Customer got a powder bun!
+ 11.01.2016 11:21:26 dotnetlab5.Customer: Customer tasted all fillings!
+ 11.01.2016 11:21:46 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:21:46 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:21:46 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:21:46 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:21:46 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:21:46 dotnetlab5.Customer: Customer got a powder bun!
+ 11.01.2016 11:23:21 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:23:21 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:23:21 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:23:21 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:23:21 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:23:21 dotnetlab5.Customer: Customer got a powder bun!
+ 11.01.2016 11:23:34 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:23:34 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:23:34 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:23:34 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:23:34 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:23:34 dotnetlab5.Customer: Customer got a powder bun!
+ 11.01.2016 11:23:57 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:23:57 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:23:57 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:23:57 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:23:57 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:23:57 dotnetlab5.Customer: Customer got a powder bun!
+ 11.01.2016 11:25:06 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:25:06 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:25:06 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:25:06 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:25:06 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:25:06 dotnetlab5.Customer: Customer got a powder bun!
+ 11.01.2016 11:28:33 dotnetlab5.Bakery: Bakery opened!
+ 11.01.2016 11:28:33 dotnetlab5.Bakery: Fridge is ready.
+ 11.01.2016 11:28:33 dotnetlab5.Bakery: PowderBunBaker added.
+ 11.01.2016 11:28:33 dotnetlab5.Bakery: BunBaker added.
+ 11.01.2016 11:28:33 dotnetlab5.Bakery: PieBaker added.
+ 11.01.2016 11:28:33 dotnetlab5.Customer: Customer got a powder bun!

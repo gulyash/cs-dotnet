@@ -1,8 +1,8 @@
 ﻿using System;
-using dotnetlab3.Baking;
-using dotnetlab3.Kitchen;
+using dotnetlab5.Baking;
+using dotnetlab5.Kitchen;
 
-namespace dotnetlab3
+namespace dotnetlab5
 {
     //using delegates
     delegate PowderBun GetPowderBunOperation(Pastry pastry, Filling filling);
@@ -31,6 +31,10 @@ namespace dotnetlab3
             {
                 logger.Log("Customer tasted all fillings!");
             }
+        }
+
+        public void TryFilling(string name) {
+            fridge.TryFilling(new Filling(name));
         }
 
         public void FindFilling(string filling) {
